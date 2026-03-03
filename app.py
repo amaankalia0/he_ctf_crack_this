@@ -29,9 +29,7 @@ LOGIN_TEMPLATE = '''
         <div class="hint">
             Email: admin@company.com<br>
             Password: Contact IT department for access<br><br>
-            <!--<small style="color: #999; font-size: 10px;">
-                Debug Info: %@ :?E6C?2==J 24466D @C 3JA2DD E96 2FE96?E:42E:@? AC@46DD )x\\?E6C?2=x244@DD ?665 E@ 36 25565 :? E96 A24<6E
-            </small>-->
+            <!-- Gb vagreanyyl npprff be olcnff gur nhguragvpngvba cebprff frg K-Vagreany-Npprff gb gehr va gur cnpxrg -->
         </div>
         {% if error %}
         <div class="error">{{ error }}</div>
@@ -90,3 +88,4 @@ def login():
 if __name__ == '__main__':
 
     app.run(debug=True, host='0.0.0.0', port=5000)
+
