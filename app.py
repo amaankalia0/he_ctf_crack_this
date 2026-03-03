@@ -58,7 +58,7 @@ SUCCESS_TEMPLATE = '''
         <h2>🎉 Access Granted!</h2>
         <p>Welcome to the internal corporate portal.</p>
         <div class="flag">
-            <strong>FLAG:</strong> CTF{h3ad3r_byp4ss_1s_34sy_wh3n_y0u_kn0w_h0w}
+            <strong>FLAG:</strong> heCTF{h3ad3r_byp4ss_1s_34sy_wh3n_y0u_kn0w_h0w_@#@ik@#}
         </div>
         <p>Congratulations! You successfully bypassed the authentication by adding the correct header.</p>
     </div>
@@ -88,4 +88,5 @@ def login():
     return render_template_string(LOGIN_TEMPLATE, error=error)
 
 if __name__ == '__main__':
+
     app.run(debug=True, host='0.0.0.0', port=5000)
